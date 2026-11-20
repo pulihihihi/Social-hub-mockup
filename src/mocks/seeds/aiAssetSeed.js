@@ -1,0 +1,21 @@
+import {
+  KNOWLEDGE_CATEGORIES,
+  MOCK_APPROVAL_ITEMS,
+  MOCK_KNOWLEDGE,
+  MOCK_MARKETPLACE_KNOWLEDGE,
+  MOCK_MARKETPLACE_SKILLS,
+  MOCK_SKILLS,
+  SKILL_CATEGORIES,
+  SKILL_TRIGGERS,
+} from '../../data/aiSkill';
+
+export const AI_ASSET_SEED = {
+  skills: MOCK_SKILLS,
+  knowledge: MOCK_KNOWLEDGE,
+  marketplaceSkills: MOCK_MARKETPLACE_SKILLS,
+  marketplaceKnowledge: MOCK_MARKETPLACE_KNOWLEDGE,
+  approvalItems: MOCK_APPROVAL_ITEMS,
+  skillCategories: SKILL_CATEGORIES,
+  skillTriggers: SKILL_TRIGGERS,
+  knowledgeCategories: KNOWLEDGE_CATEGORIES,
+};

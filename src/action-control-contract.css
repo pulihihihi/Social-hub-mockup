@@ -1,0 +1,92 @@
+/*
+ * Global action control contract.
+ * Source of truth is documented in LAYOUT-BLUEPRINT.md > Action Control Contract.
+ */
+:root {
+  --social-action-height: 32px;
+  --social-action-height-sm: 24px;
+  --social-action-icon-size: 32px;
+  --social-action-icon-size-sm: 24px;
+  --social-action-radius: 6px;
+  --social-action-radius-sm: 4px;
+  --social-action-padding-inline: 14px;
+  --social-action-padding-inline-sm: 10px;
+  --social-switch-width: 44px;
+  --social-switch-height: 24px;
+  --social-switch-handle: 20px;
+  --social-switch-padding: 2px;
+}
+
+body .ant-btn:not(.ant-btn-sm):not(.ant-btn-lg):not(.ant-btn-link) {
+  min-height: var(--social-action-height) !important;
+  height: var(--social-action-height) !important;
+  padding-inline: var(--social-action-padding-inline) !important;
+  border-radius: var(--social-action-radius) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+  box-shadow: none !important;
+}
+
+body .ant-btn.ant-btn-sm:not(.ant-btn-link) {
+  min-height: var(--social-action-height-sm) !important;
+  height: var(--social-action-height-sm) !important;
+  padding-inline: var(--social-action-padding-inline-sm) !important;
+  border-radius: var(--social-action-radius-sm) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  font-size: 12px !important;
+  line-height: 1 !important;
+  box-shadow: none !important;
+}
+
+body .ant-btn-icon-only:not(.ant-btn-sm):not(.ant-btn-lg) {
+  width: var(--social-action-icon-size) !important;
+  min-width: var(--social-action-icon-size) !important;
+  padding-inline: 0 !important;
+}
+
+body .ant-btn-icon-only.ant-btn-sm {
+  width: var(--social-action-icon-size-sm) !important;
+  min-width: var(--social-action-icon-size-sm) !important;
+  padding-inline: 0 !important;
+}
+
+body .ant-btn > .anticon + span,
+body .ant-btn > span + .anticon {
+  margin-inline-start: 0 !important;
+}
+
+body .ant-switch:not(.ant-switch-small) {
+  min-width: var(--social-switch-width) !important;
+  width: var(--social-switch-width) !important;
+  height: var(--social-switch-height) !important;
+  border-radius: calc(var(--social-switch-height) / 2) !important;
+  line-height: var(--social-switch-height) !important;
+}
+
+body .ant-switch:not(.ant-switch-small) .ant-switch-handle {
+  width: var(--social-switch-handle) !important;
+  height: var(--social-switch-handle) !important;
+  top: var(--social-switch-padding) !important;
+  inset-inline-start: var(--social-switch-padding) !important;
+}
+
+body .ant-switch:not(.ant-switch-small).ant-switch-checked .ant-switch-handle {
+  inset-inline-start: calc(100% - var(--social-switch-handle) - var(--social-switch-padding)) !important;
+}
+
+body .ant-switch:not(.ant-switch-small) .ant-switch-inner {
+  min-height: var(--social-switch-height) !important;
+}
+
+body .ant-switch.ant-switch-small {
+  min-width: 28px !important;
+  width: 28px !important;
+  height: 16px !important;
+}

@@ -1,0 +1,211 @@
+.settings-approval-page {
+  min-width: 0;
+}
+
+.settings-approval-name-cell {
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.settings-approval-id-cell {
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.settings-approval-count-cell {
+  font-size: 14px;
+}
+
+.settings-approval-icon-button {
+  width: 32px;
+  height: 32px;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.settings-approval-icon-button .anticon-star,
+.settings-approval-icon-button .anticon-star-filled {
+  font-size: 17px;
+}
+
+.settings-approval-icon-button .anticon-star-filled {
+  color: #1677ff;
+}
+
+.settings-approval-table .ant-pro-card {
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.settings-approval-table .ant-pro-table .ant-table-thead > tr > th {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.settings-approval-table .ant-table-tbody > tr > td {
+  vertical-align: middle;
+}
+.settings-approval-modal .ant-modal-body {
+  display: grid;
+  gap: 24px;
+  padding-top: 8px;
+}
+
+.settings-approval-modal-top,
+.settings-approval-step-card label {
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.settings-approval-modal-top {
+  display: grid;
+  gap: 8px;
+}
+
+.settings-approval-modal-top label,
+.settings-approval-step-card label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.settings-approval-modal-top .ant-input-affix-wrapper,
+.settings-approval-step-card .ant-input-affix-wrapper,
+.settings-approval-step-card .ant-select-selector {
+  border-color: #9aa4ad !important;
+  border-radius: 4px;
+}
+
+.settings-approval-modal-grid {
+  display: grid;
+  grid-template-columns: minmax(560px, 1fr) minmax(360px, 560px);
+  gap: 24px;
+}
+
+.settings-approval-modal-section {
+  min-width: 0;
+}
+
+.settings-approval-modal-section h5.ant-typography {
+  margin: 0 0 16px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 16px;
+}
+
+.settings-approval-step-list {
+  display: grid;
+  gap: 14px;
+}
+
+.settings-approval-step-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.settings-approval-step-row::before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: 11px;
+  bottom: -18px;
+  width: 1px;
+  background: #d9d9d9;
+}
+
+.settings-approval-step-index {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #b5f5ec;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.settings-approval-step-card {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  padding: 18px 44px 16px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.settings-approval-step-delete {
+  position: absolute;
+  top: 16px;
+  right: 12px;
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.settings-approval-approver-help {
+  margin-top: -6px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 13px;
+}
+
+.settings-approval-step-requirement {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.settings-approval-step-requirement .ant-select {
+  width: 72px;
+}
+
+.settings-approval-add-step {
+  margin-top: 12px;
+  padding-inline: 0;
+  font-weight: 600;
+}
+
+.settings-approval-skip-setting {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 10px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.settings-approval-skip-setting > div {
+  display: grid;
+  gap: 8px;
+}
+
+.settings-approval-skip-setting .ant-typography {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+@media (max-width: 980px) {
+  .settings-approval-modal-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .settings-approval-modal .ant-modal {
+    max-width: calc(100vw - 24px);
+  }
+
+  .settings-approval-step-row {
+    grid-template-columns: 1fr;
+  }
+
+  .settings-approval-step-row::before,
+  .settings-approval-step-index {
+    display: none;
+  }
+}

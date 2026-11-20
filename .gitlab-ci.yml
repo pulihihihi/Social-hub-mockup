@@ -1,0 +1,3 @@
+include:
+  - project: 'odp/ci-templates'
+    file: '/.gitlab-ci.yml'

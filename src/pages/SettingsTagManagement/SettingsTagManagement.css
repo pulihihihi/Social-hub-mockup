@@ -1,0 +1,128 @@
+.settings-tag-page {
+  min-width: 0;
+}
+
+.settings-tag-page-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.settings-tag-tabs .ant-tabs-nav {
+  margin: 0 0 16px;
+}
+
+.settings-tag-tabs .ant-tabs-tab {
+  font-weight: 600;
+}
+
+.settings-tag-table .ant-pro-card,
+.settings-collection-table .ant-pro-card,
+.settings-system-tag-table .ant-pro-card {
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.settings-tag-table .ant-pro-table .ant-table-thead > tr > th,
+.settings-collection-table .ant-pro-table .ant-table-thead > tr > th,
+.settings-system-tag-table .ant-pro-table .ant-table-thead > tr > th {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.settings-tag-table .ant-table-cell,
+.settings-collection-table .ant-table-cell,
+.settings-system-tag-table .ant-table-cell {
+  vertical-align: middle;
+}
+
+.settings-system-tag-table .ant-table-cell {
+  vertical-align: top;
+}
+
+.settings-tag-name-cell {
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.settings-tag-id-cell {
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.settings-tag-collection-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.settings-tag-preview-list {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.settings-tag-preview-more {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+}
+
+.settings-tag-modal .ant-modal-body {
+  display: grid;
+  gap: 16px;
+  padding-top: 8px;
+}
+
+.settings-tag-modal-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.settings-tag-modal-field {
+  display: grid;
+  gap: 8px;
+}
+
+.settings-tag-modal-field label {
+  color: rgba(0, 0, 0, 0.86);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.settings-tag-modal-field .ant-input,
+.settings-tag-modal-field .ant-select-selector {
+  border-radius: 6px !important;
+}
+
+.settings-tag-group-date-range.ant-picker {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.settings-tag-icon-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.settings-tag-icon-option .anticon,
+.settings-tag-icon-option svg {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 980px) {
+  .settings-tag-preview-list {
+    gap: 4px;
+  }
+}

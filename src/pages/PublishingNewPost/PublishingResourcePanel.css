@@ -1,0 +1,118 @@
+.publishing-resource-drawer .ant-drawer-content-wrapper {
+  width: 50vw !important;
+  min-width: 560px;
+}
+
+.publishing-resource-drawer .ant-drawer-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.publishing-resource-panel {
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  height: 100%;
+  min-height: 0;
+  background: #fff;
+}
+
+.publishing-resource-breadcrumb {
+  padding: 0 20px 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.publishing-resource-search {
+  padding: 14px 20px;
+}
+
+.publishing-resource-content {
+  min-height: 0;
+  overflow: auto;
+  padding: 0 20px 24px;
+}
+
+.publishing-resource-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 8px 0 14px;
+}
+
+.publishing-resource-title-row .ant-typography {
+  margin: 0;
+}
+
+.publishing-resource-title-row .ant-btn-link {
+  height: auto;
+  padding: 2px 0 0;
+  white-space: nowrap;
+}
+
+.publishing-resource-definition {
+  display: grid;
+  gap: 5px;
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid #91caff;
+  border-radius: 6px;
+  background: #e6f4ff;
+  line-height: 1.55;
+}
+
+.publishing-resource-section {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.publishing-resource-section ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.publishing-resource-section li {
+  margin-bottom: 7px;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 1.55;
+}
+
+.publishing-resource-section .ant-table-wrapper {
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.publishing-resource-related {
+  display: grid;
+  gap: 6px;
+  margin-top: 4px;
+  padding: 12px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.publishing-resource-related button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  padding: 3px 0;
+  border: 0;
+  background: transparent;
+  color: #1677ff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+}
+
+.publishing-resource-related button:hover {
+  color: #0958d9;
+}
+
+@media (max-width: 900px) {
+  .publishing-resource-drawer .ant-drawer-content-wrapper {
+    width: 100vw !important;
+    min-width: 0;
+  }
+}

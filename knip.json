@@ -1,0 +1,19 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "entry": [
+    "index.html",
+    "src/main.jsx",
+    "vite.config.js",
+    "vitest.config.js",
+    "eslint.config.js",
+    "tests/**/*.test.{js,jsx}",
+    "tests/test.setup.js",
+    "scripts/**/*.mjs"
+  ],
+  "project": [
+    "*.js",
+    "scripts/**/*.mjs",
+    "src/**/*.{js,jsx}",
+    "tests/**/*.{js,jsx}"
+  ]
+}

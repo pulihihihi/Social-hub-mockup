@@ -1,0 +1,214 @@
+/* Hover utility classes — replaces inline onMouseEnter/onMouseLeave */
+
+/* Generic hover: background fill on hover */
+.hover-fill:hover {
+  background: var(--hover-bg, rgba(0, 0, 0, 0.04)) !important;
+}
+
+/* Dropdown menu item hover */
+.hover-menu-item {
+  transition: background 0.15s;
+}
+.hover-menu-item:hover {
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* AI recommendation tag hover */
+.hover-ai-rec {
+  transition: all 0.2s;
+}
+.hover-ai-rec:hover {
+  border-color: #91caff !important;
+  background: #e6f4ff !important;
+}
+
+/* AI suggest button hover */
+.hover-ai-suggest {
+  transition: all 0.2s;
+}
+.hover-ai-suggest:hover {
+  background: #e6f4ff !important;
+  border-color: #91caff !important;
+}
+
+/* Link with underline on hover */
+.hover-underline:hover {
+  text-decoration: underline !important;
+}
+
+/* Card hover: box-shadow on hover */
+.hover-card {
+  transition: box-shadow 0.2s;
+}
+.hover-card:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02) !important;
+}
+
+/* Icon button hover: opacity change */
+.hover-icon-btn {
+  transition: color 0.15s;
+}
+.hover-icon-btn:hover {
+  color: rgba(0, 0, 0, 0.65) !important;
+}
+
+/* Delete icon hover: red color + red bg */
+.hover-icon-delete {
+  transition: all 0.15s;
+}
+.hover-icon-delete:hover {
+  color: #ff4d4f !important;
+  background: #fff2f0 !important;
+}
+
+/* Filter cell hover: tertiary fill */
+.hover-filter-cell {
+  transition: background 0.15s;
+}
+.hover-filter-cell:hover {
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Filter cell with active state (subtle primary bg) */
+.hover-filter-active {
+  transition: background 0.15s;
+}
+.hover-filter-active:hover {
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Clear all: error bg on hover */
+.hover-clear-all {
+  transition: background 0.15s;
+}
+.hover-clear-all:hover {
+  background: #fff2f0 !important;
+}
+
+/* Category tab hover: change text color */
+.hover-tab-text {
+  transition: color 0.15s;
+}
+.hover-tab-text:hover {
+  color: var(--hover-color, #1677ff) !important;
+}
+
+/* Card shadow hover (stronger) */
+.hover-card-shadow {
+  transition: box-shadow 0.2s;
+}
+.hover-card-shadow:hover {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03), 0 1px 6px -1px rgba(0,0,0,0.02), 0 2px 4px rgba(0,0,0,0.02) !important;
+}
+
+/* Background layout hover */
+.hover-bg-layout {
+  transition: background 0.15s;
+}
+.hover-bg-layout:hover {
+  background: #f5f5f5 !important;
+}
+
+/* Primary hover: border + bg changes */
+.hover-primary-border {
+  transition: all 0.2s;
+}
+.hover-primary-border:hover {
+  border-color: #1677ff !important;
+  background: #e6f4ff !important;
+}
+
+/* Link hover: color change to primary */
+.hover-link-primary {
+  transition: color 0.15s;
+}
+.hover-link-primary:hover {
+  color: #4096ff !important;
+}
+
+/* AI blue light bg hover */
+.hover-ai-light {
+  transition: background 0.15s;
+}
+.hover-ai-light:hover {
+  background: #e6f4ff !important;
+}
+
+/* Row highlight hover: subtle quaternary fill */
+.hover-row-highlight {
+  transition: background 0.15s;
+}
+.hover-row-highlight:hover {
+  background: rgba(0, 0, 0, 0.02) !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+/* Shared ProTable selected-action bar */
+.app-pro-table .ant-pro-table-alert {
+  margin-block-end: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.app-pro-table .ant-pro-table-alert .ant-alert,
+.app-pro-table .ant-pro-table-alert .ant-alert-info {
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.app-pro-table .ant-pro-table-alert-container {
+  padding: 0 !important;
+}
+
+.app-pro-table .ant-pro-table-alert-content,
+.app-pro-table .ant-pro-table-alert-message {
+  width: 100%;
+}
+
+.app-pro-table .ant-table-wrapper {
+  margin-top: 0 !important;
+}
+
+.app-pro-table-alert-bar {
+  box-sizing: border-box;
+}
+
+.app-pro-table-alert-actions {
+  row-gap: 4px;
+}
+
+.app-pro-table-alert-action {
+  min-width: 0;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  font-weight: 500;
+}
+
+.app-pro-table-alert-action.ant-btn-sm,
+.app-pro-table-alert-clear.ant-btn-sm {
+  height: 24px;
+  padding-inline: 10px;
+  font-size: 12px;
+}
+
+.app-pro-table-alert-action-primary.ant-btn {
+  border-color: #1677ff !important;
+  background: #1677ff !important;
+}
+
+.app-pro-table-alert-action-danger.ant-btn {
+  color: #ff4d4f !important;
+  border-color: #ff4d4f !important;
+  background: #ffffff !important;
+}
+
+.app-pro-table-alert-clear.ant-btn-link {
+  color: #1677ff !important;
+  font-weight: 500;
+}
