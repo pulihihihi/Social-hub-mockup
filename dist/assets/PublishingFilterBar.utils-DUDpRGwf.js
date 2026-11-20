@@ -1,0 +1,1 @@
+const i=(t,g="Viewing all",e=[])=>{var n;return t!=null&&t.length?t.length===1&&e.length?((n=e.find(r=>r.value===t[0]))==null?void 0:n.label)??t[0]:t.length===1?"1 selected":`${t.length} selected`:g};export{i as g};
