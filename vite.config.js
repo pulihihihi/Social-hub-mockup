@@ -10,6 +10,9 @@ export default defineConfig(({ mode }) => ({
     port: 5173,
     open: true,
   },
+  preview: {
+    allowedHosts: ['social-hub-mockup.demo.ved.com.vn', '.demo.ved.com.vn'],
+  },
   build: {
     chunkSizeWarningLimit: 1400,
     rollupOptions: {
